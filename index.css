@@ -3,3 +3,34 @@ img {
     text-align: center;
     margin-bottom: 20px;
 }
+
+button {
+    border-radius: 12px;
+    background-color: darkblue;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: #2eb51c;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+button.margin-right {
+    margin-right: 20px;
+}
