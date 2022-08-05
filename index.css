@@ -34,3 +34,43 @@ button:hover {
 button.margin-right {
     margin-right: 20px;
 }
+
+nav {
+    font-size: 2rem;
+    background-color: darkblue;
+}
+
+/* Navigation bar */
+/* Flex Container */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    border-right: 2px solid white;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    flex: auto;
+    text-align: center;
+}
+
+/* remove last border to make three vertical lines */
+nav ul li:last-child {
+    border: none;
+}
+
+nav ul li:hover {
+    background-color: #000;
+    color: white;
+}
+
+.flex-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
