@@ -8,7 +8,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
     </head>
+
     <body>
+        <div id="dialogoverlay"></div>
+        <div id="dialogbox">
+            <div>
+                <div id="dialogboxhead"></div>
+                <div id="dialogboxbody"></div>
+                <div id="dialogboxfoot"></div>
+            </div>
+        </div>
+
+        <h1>STOP IT! - Leveraging Artificial Intelligence
+            to Stop
+            Anti-Social Behaviour</h1>
         <nav>
             <ul>
                 <li tabindex="1">HOME</li>
@@ -16,19 +29,35 @@
                 <li tabindex="1"><a href="project_info.html">PROJECT INFO</a></li>
             </ul>
         </nav>
-        <div id="webcam-container"></div>
-        <div id="label-container"></div>
-        <img src="stop_it.png" class="center">
-        <div class="buttons center">
-            <button class="margin-right">Create Master User</button>
-            <button class="margin-right" type="button" onclick="init()">Start
-                Monitoring</button>
-            <button>Stop Monitoring</button>
+
+        <div class="flex-container">
+            <div id="webcam-container"></div>
         </div>
+
+        <div class="picture-box-container">
+            <div class="picture-box" id="stop_it">
+                <img src="stop_cropped.png">
+            </div>
+        </div>
+        <div class="buttons center">
+            <button class="margin-right" id="mixedUseButton">Start
+                Monitoring</button>
+        </div>
+
+
+        <div class="blinking-container" id="blinking-container">
+        </div>
+        <div id="center-container">
+            <div id="label-container" class="center""></div>
+        </div>
+
         <script
             src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
-        <script src="app.js"></script>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="index.js"></script>
+
     </body>
 </html>
