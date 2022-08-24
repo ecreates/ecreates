@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+        
+    <h1>INSTRUCTIONS</h1>
+            <nav>
+                <ul>
+                    <li tabindex="1"><a href="index.html">HOME</a></li>
+                    <li><a href="project_info.html">PROJECT INFO</a></li>
+                </ul>
+            </nav>
+            <div class="text-box-container">
+                <div class="text-box">Please place a webcam so that your face
+                    points directly to it at all times. A camera positioned on top of
+                    an additional monitor produces the best results.
+                    
+                    When ready to be monitored by the system, please press
+                    "Start monitoring" button. The system projects your webcam
+                    feed on  canvas located on "Home" page and begins
+                    to analyse it utilising Machine Learning and Artificial
+                    Intelligence.
+                    <br>
+                    <br>
+                    The analysing process occurs in user's
+                    web browser. Therefore, no privacy issues arise from transmitting
+                    user images over a network.
+                    When the system concludes that there is a 90% or higher
+                    probability that a user picks their nose, bites their
+                    fingernails, turns the camera away or covers the camera,
+                    a continuous loud
+                    warning sound is played until a user stops these behaviours.
+                    Please be aware that the warning sound is annoying!
+                    In addition, user states and their detection accuracy are
+                    displayed when a user is monitored.
+                </div>
+            </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    </body>
+</html>
