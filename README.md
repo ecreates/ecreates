@@ -1,8 +1,8 @@
 // BANNER
-![](Images/Thor's_Arctic_Equipment_Rentals.png)
+![](Images/stop_cropped.png)
  <div align="center">
 
- <h3> Arctic Equipment Rental Management System<br>
+ <h3> System to decrease anti-social behaviours of fingernail biting and nosepicking whilst using a computer<br>
  
  </div>
  
