@@ -9,7 +9,7 @@
  
 </div>
  
-// BADGES
+
 <div align="center">
  
  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) &nbsp;&nbsp;&nbsp;&nbsp; 
@@ -18,13 +18,6 @@
 
  
  </div>
-
-<div align="center">
- 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftenngs%2Fthors-rentals&count_bg=%23000000&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits+%5Btoday%5D+%2F+%5Ball+time%5D&edge_flat=false)](https://hits.seeyoufarm.com)
-
-// TABLE OF CONTENTS5
-  </div>
  
  <div align="center">
  
