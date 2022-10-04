@@ -64,9 +64,9 @@ When States 2 (NP & FB), 3 (Turned), 4 (Covered) are recognised by the system, a
 ## How does it do it?
 The most important part of the system is the ML model. Google's Teachable Machine (https://teachablemachine.withgoogle.com/) was utilised to produce the model by taking ~600 pictures of the author in each four system States. Head positioning in relation to the camera was varied in producing nose picking and fingernail biting events. Also included were positioning of fingers from both hands in various areas around the mouth and nose. In addition, photographs of Covered and Turned State were taken with varying material covering the lense and various distinct surroundings, respectively. The aim was to produce a varied range of photographs to train an accurate ML model.
 
-Subsequently, the model was exported and tested. The results were convincing as the model was able to recognise all States with near 100% accuracy.
+Subsequently, the model trained on the images, exported and tested. The results were convincing as the model was able to recognise all States with near 100% accuracy.
   
-Finally, a simple UI was built the model connected to it.
+Finally, a simple UI was built and the model connected to it.
  
   
 
@@ -75,7 +75,9 @@ The ML model is hosted on Teachable Machine's servers and accessed via internet.
 
 Please note: No user images produced by user's webcam are ever transmitted over a network. Hence, no privacy issues arise from usage of the system.
 
-## Ethics and Biases 
+## Ethics and Biases
+The model is trained on the images of its author. As a result, the model will perform more accurately when utilised by a user depicting the same demographic character as the author.   
+
   
 ## Let's have a look-see, shall we?
 
