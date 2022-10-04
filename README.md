@@ -67,8 +67,6 @@ The most important part of the system is the ML model. Google's Teachable Machin
 Subsequently, the model trained on the images, exported and tested. The results were convincing as the model was able to recognise all States with near 100% accuracy.
   
 Finally, a simple UI was built and the model connected to it.
- 
-  
 
 ## Privacy
 The ML model is hosted on Teachable Machine's servers and accessed via internet. Furthermore, all user image processing occurs in user's web browser.
@@ -78,10 +76,11 @@ Please note: No user images produced by user's webcam are ever transmitted over 
 ## Ethics and Biases
 The model is trained on the images of its author. As a result, the model will perform more accurately when utilised by a user depicting the same demographic character as the author.   
 
-  
 ## Let's have a look-see, shall we?
-
-### Main menu<br><br> ![](Images/thors-main-menu.jpg)<br>
+The project is deployed in AWS public cloud and can be accessed from https://dev.d2uanxqxa2fkp3.amplifyapp.com/
+Please find below a screenshot of the landing page
+  
+### Landing page<br><br> ![](Images/thors-main-menu.jpg)<br>
 
 ### Statistics menu<br><br> ![](Images/thors-stats.jpg)<br>
 
