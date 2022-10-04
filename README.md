@@ -57,14 +57,12 @@ The system is designed to detect fingernail biting and nose picking behaviour fr
  
 In the most basic terms, a user navigates to the application's website, sets a webcam facing themselves and presses 'start monitoring'. Subsequently, the system begins to analyse user's webcam feed using a Machine Learning (ML) model to detect four distinct states:
 
-1) Normal State
-2) Nosepicking (NP) & Fingernail Biting (FB)
-3) Turned State
-4) Covered State
+1) Normal State (ie. != Nose Picking (NP) or fingernail biting (FB) or Turned or Covered)
+2) NP & FB (prohibited behaviour occurs)
+3) Turned State (where webcam is turned away from the user)
+4) Covered State (where webcam is covered)
 
 When States 2 (NP & FB), 3 (Turned), 4 (Covered) are recognised by the system, an extremely annoying and loud sound is played until the system decides that the user is exhibiting State 1 (Normal) behaviour. 
-
-In summary, if a user is not exhibiting behaviour classified as belonging to Normal State, a continuous and ultra-annoying sound is played by the system.
 
 ## How does it do it?
 
