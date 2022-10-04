@@ -34,16 +34,8 @@
 - [Let's have a look-see, shall we?](#lets-have-a-look-see-shall-we)
    - [Landing page](#landing-page)
    - [User monitoring](#user-monitoring)
-   - [Initiating ATV rental](#initiating-atv-rental)
-   - [Receiving an item back from loan](#receiving-an-item-back-from-loan)
-- [Dependencies](#dependencies)
-- [How to install dependencies for Windows](#how-to-install-dependencies-for-windows)
-   - [MinGW & gcc compiler](#mingw--gcc-compiler)
-   - [MinGW threads](#mingw-threads)
-   - [Sqlite3](#sqlite3)
-   - [Notes](#notes)
-- [Compiling](#compiling)
-- [Possible additions](#future-work)
+- [How to use the system](#how-to-use-the-system)
+- [Possible additions](#possible-additions)
 
 
 ## Background
@@ -96,13 +88,6 @@ Please find below screenshots of landing page and user monitoring state. Please 
 ![image](https://user-images.githubusercontent.com/85033252/193797373-a52b505d-0e00-4836-8dcf-bdd3ca21d89f.png)
 
 </div>
-
-
-### Initiating ATV rental<br>
-![](Images/thors-init-rental.gif)
-
-### Receiving an item back from loan<br>
-![](Images/thors-receive-item.gif)<br><br>
 
 ## How to use the system
 
