@@ -82,9 +82,13 @@ The project is deployed in AWS public cloud and can be accessed from https://dev
 Please find below a screenshot of the landing page
   
 ### Landing page<br><br> 
+  
+<div align="center">
+ 
 ![image](https://user-images.githubusercontent.com/85033252/193796620-96495834-458c-4209-b00f-f2e1b0d388ba.png)
 
-
+</div>
+  
 ### Statistics menu<br><br> 
 
 
