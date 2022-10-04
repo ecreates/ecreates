@@ -48,12 +48,20 @@
 
 ## Background
 <br>
-  
+This project’s viability is assessed by the general personal observation of the increase in ubiquitous computing and the reliance on computers especially in the lives of the young at present. It is further personally observed that the young increasingly manifest anti-social behaviours of nail biting and nose picking when utilising a computer. Hence, there is a need for additional tools to help people to reduce or remove these anti-social behaviours which this project aims to provide. 
 <br><br>
 
-
 ## What does it do?
+In the most basic terms, a user navigates to the application's website, sets a webcam facing themselves and presses 'start monitoring'. Subsequently, the system begins to analyse user's webcam feed using a Machine Learning (ML) model to detect four distinct states:
 
+1) Normal State
+2) Nosepicking (NP) & Fingernail Biting (FB)
+3) Turned State
+4) Covered State
+
+When States 2 (NP & FB), 3 (Turned), 4 (Covered) are recognised by the system, an extremely annoying and loud sound is played until the system decides that the user is exhibiting State 1 (Normal) behaviour. 
+
+In summary, if a user is not exhibiting behaviour classified as belonging to Normal State, a continuous and ultra-annoying sound is played by the system.
 
 ## How does it do it?
 
