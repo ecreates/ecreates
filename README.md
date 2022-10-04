@@ -1,6 +1,6 @@
 <div align="center">
  
-![](Images/stop_cropped.png)
+![image](https://user-images.githubusercontent.com/85033252/193809079-1786cdea-efe9-4508-b57a-2a1d14d6ebcb.png)
 
 </div>
 <div align="center">
