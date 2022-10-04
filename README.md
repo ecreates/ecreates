@@ -17,7 +17,7 @@
  ![](https://img.shields.io/badge/machine-learning-blue)  &nbsp;&nbsp;&nbsp;&nbsp;  ![](https://img.shields.io/badge/artificial-intelligence-blue)
  &nbsp;&nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/teachable-machine-blue)
 
- ![image](https://user-images.githubusercontent.com/85033252/193795659-d8ea96f1-129e-41f2-be02-790155c006cc.png)
+ 
 
  </div>
  
@@ -81,9 +81,10 @@ The model is trained on the images of its author. As a result, the model will pe
 The project is deployed in AWS public cloud and can be accessed from https://dev.d2uanxqxa2fkp3.amplifyapp.com/
 Please find below a screenshot of the landing page
   
-### Landing page<br><br> ![](Images/thors-main-menu.jpg)<br>
+### Landing page<br><br> 
+ ![image](https://user-images.githubusercontent.com/85033252/193795659-d8ea96f1-129e-41f2-be02-790155c006cc.png)
 
-### Statistics menu<br><br> ![](Images/thors-stats.jpg)<br>
+### Statistics menu<br><br> 
 
 
 ### Initiating ATV rental<br>
