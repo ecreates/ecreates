@@ -3,32 +3,30 @@
 ![image](https://user-images.githubusercontent.com/85033252/193809079-1786cdea-efe9-4508-b57a-2a1d14d6ebcb.png)
 ![](https://github.com/tenngs/anti-antisocial-AI/blob/main/Images/Anti_Anti-Social_AI.png)
 
-
 </div>
+
 <div align="center">
 
-<h3> System to decrease anti-social behaviours of fingernail biting and nosepicking whilst using a computer<br>
+<h3> System to combat anti-social behaviours of fingernail biting and nose picking whilst using a computer<br>
  
 </div>
  
-
 <div align="center">
  
  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) &nbsp;&nbsp;&nbsp;&nbsp; ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) &nbsp;&nbsp;&nbsp;&nbsp; 
  
  ![](https://img.shields.io/badge/machine-learning-blue)  &nbsp;&nbsp;&nbsp;&nbsp;  ![](https://img.shields.io/badge/artificial-intelligence-blue)
  &nbsp;&nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/teachable-machine-blue)
-
  
-
  </div>
  
- <div align="center">
+<div align="center">
  
 <h2> Table of Contents
+
 </div>
 
-- [Background](#Background)
+- [Background](#background)
 - [What does it do?](#what-does-it-do)
 - [How does it do it?](#how-does-it-do-it)
 - [Privacy](#privacy) 
@@ -45,9 +43,14 @@ This project’s viability is assessed by the general personal observation of th
 <br><br>
 
 ## What does it do?
-The system is designed to detect fingernail biting and nose picking behaviour from user's webcam feed and to "penalise" the user by playing a continuous and horrible sound until the user stops exhibiting these behaviours with a view of drawing attention to and correcting these behaviours. 
- 
-In the most basic terms, a user navigates to the application's website, sets a webcam facing themselves and presses 'start monitoring'. Subsequently, the system begins to analyse user's webcam feed using a Machine Learning (ML) model to detect four distinct states:
+The system is designed to detect fingernail biting and nose picking behaviour from user's webcam feed by utilising a Machine Learning (ML) model and to "penalise" the user by playing a continuous and horrible sound until the user stops exhibiting these behaviours with a view of drawing attention to and correcting these behaviours. 
+
+## How does it do it?
+The most important part of the system is the ML model. Google's Teachable Machine (https://teachablemachine.withgoogle.com/) was utilised to produce the model by taking ~600 pictures of the author in each four system States. Head positioning in relation to the camera was varied in producing nose picking and fingernail biting events. Also included were positioning of fingers from both hands in various areas around the mouth and nose. In addition, photographs of Covered and Turned State were taken with varying material covering the lense and various distinct surroundings, respectively. The aim was to produce a varied range of photographs to train an accurate ML model.
+
+Subsequently, the model was trained on the images, exported and tested. The results were convincing as the model was able to recognise all States with near 100% accuracy.
+
+The definition and purpose of all system States are as follows:
 
 1) Normal State (ie. != Nose Picking (NP) or fingernail biting (FB) or Turned or Covered)
 2) NP & FB (prohibited behaviour occurs)
@@ -55,13 +58,6 @@ In the most basic terms, a user navigates to the application's website, sets a w
 4) Covered State (where webcam is covered)
 
 When States 2 (NP & FB), 3 (Turned), 4 (Covered) are recognised by the system, an extremely annoying and loud sound is played until the system decides that the user is exhibiting State 1 (Normal) behaviour. 
-
-## How does it do it?
-The most important part of the system is the ML model. Google's Teachable Machine (https://teachablemachine.withgoogle.com/) was utilised to produce the model by taking ~600 pictures of the author in each four system States. Head positioning in relation to the camera was varied in producing nose picking and fingernail biting events. Also included were positioning of fingers from both hands in various areas around the mouth and nose. In addition, photographs of Covered and Turned State were taken with varying material covering the lense and various distinct surroundings, respectively. The aim was to produce a varied range of photographs to train an accurate ML model.
-
-Subsequently, the model trained on the images, exported and tested. The results were convincing as the model was able to recognise all States with near 100% accuracy.
-  
-Finally, a simple UI was built and the model connected to it.
 
 ## Privacy
 The ML model is hosted on Teachable Machine's servers and accessed via internet. Furthermore, all user image processing occurs in user's web browser.
@@ -74,18 +70,20 @@ The model is trained on the images of its author. As a result, the model will pe
 ## Let's have a look-see, shall we?
 The project is deployed in AWS public cloud and can be accessed from https://dev.d2uanxqxa2fkp3.amplifyapp.com/
 Please find below screenshots of landing page and user monitoring state. Please note that when a user is monitored, a red sign saying "Monitoring!" is flashing on the screen. 
-  
-### Landing page<br><br> 
-  
+
 <div align="center">
+
+### Landing page<br>
+  
+
  
 ![image](https://user-images.githubusercontent.com/85033252/193796620-96495834-458c-4209-b00f-f2e1b0d388ba.png)
 
-</div>
+
   
-### User monitoring<br><br> 
+### User monitoring<br> 
   
-<div align="center">
+
  
 ![image](https://user-images.githubusercontent.com/85033252/193797373-a52b505d-0e00-4836-8dcf-bdd3ca21d89f.png)
 
