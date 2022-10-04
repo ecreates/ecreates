@@ -32,8 +32,8 @@
 - [Privacy](#privacy) 
 - [Ethics and Biases](#ethics-and-biases)  
 - [Let's have a look-see, shall we?](#lets-have-a-look-see-shall-we)
-   - [Main menu](#main-menu-)
-   - [Statistics menu](#statistics-menu-)
+   - [Landing page](#landing-page)
+   - [User monitoring](#user-monitoring)
    - [Initiating ATV rental](#initiating-atv-rental)
    - [Receiving an item back from loan](#receiving-an-item-back-from-loan)
 - [Dependencies](#dependencies)
@@ -79,7 +79,7 @@ The model is trained on the images of its author. As a result, the model will pe
 
 ## Let's have a look-see, shall we?
 The project is deployed in AWS public cloud and can be accessed from https://dev.d2uanxqxa2fkp3.amplifyapp.com/
-Please find below a screenshots of the landing page and user monitoring state.
+Please find below a screenshots of the landing page and user monitoring state. Please note that when a user is monitored, a red sign saying "Monitoring!" is flashing on the screen. 
   
 ### Landing page<br><br> 
   
