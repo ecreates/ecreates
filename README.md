@@ -17,7 +17,8 @@
  ![](https://img.shields.io/badge/machine-learning-blue)  &nbsp;&nbsp;&nbsp;&nbsp;  ![](https://img.shields.io/badge/artificial-intelligence-blue)
  &nbsp;&nbsp;&nbsp;&nbsp; ![](https://img.shields.io/badge/teachable-machine-blue)
 
- 
+ ![image](https://user-images.githubusercontent.com/85033252/193795659-d8ea96f1-129e-41f2-be02-790155c006cc.png)
+
  </div>
  
  <div align="center">
