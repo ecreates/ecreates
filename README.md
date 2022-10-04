@@ -28,7 +28,8 @@
 - [Background](#Background)
 - [What does it do?](#what-does-it-do)
 - [How does it do it?](#how-does-it-do-it)
-- [Privacy](#privacy)
+- [Privacy](#privacy) 
+- [Ethics and Biases](#ethics-and-biases)  
 - [Let's have a look-see, shall we?](#lets-have-a-look-see-shall-we)
    - [Main menu](#main-menu-)
    - [Statistics menu](#statistics-menu-)
@@ -74,6 +75,8 @@ The ML model is hosted on Teachable Machine's servers and accessed via internet.
 
 Please note: No user images produced by user's webcam are ever transmitted over a network. Hence, no privacy issues arise from usage of the system.
 
+## Ethics and Biases 
+  
 ## Let's have a look-see, shall we?
 
 ### Main menu<br><br> ![](Images/thors-main-menu.jpg)<br>
