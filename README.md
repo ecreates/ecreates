@@ -53,6 +53,8 @@ This project’s viability is assessed by the general personal observation of th
 <br><br>
 
 ## What does it do?
+The system is designed to detect fingernail biting and nose picking behaviour from user's webcam feed and to "penalise" the user by playing a continuous and horrible sound until the user stops exhibiting these behaviours with a view of drawing attention to and correcting these behaviours. 
+ 
 In the most basic terms, a user navigates to the application's website, sets a webcam facing themselves and presses 'start monitoring'. Subsequently, the system begins to analyse user's webcam feed using a Machine Learning (ML) model to detect four distinct states:
 
 1) Normal State
