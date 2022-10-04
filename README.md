@@ -28,7 +28,7 @@
 - [Background](#Background)
 - [What does it do?](#what-does-it-do)
 - [How does it do it?](#how-does-it-do-it)
-- [OK, but why?](#ok-but-why)
+- [Privacy](#privacy)
 - [Let's have a look-see, shall we?](#lets-have-a-look-see-shall-we)
    - [Main menu](#main-menu-)
    - [Statistics menu](#statistics-menu-)
@@ -61,7 +61,7 @@ In the most basic terms, a user navigates to the application's website, sets a w
 When States 2 (NP & FB), 3 (Turned), 4 (Covered) are recognised by the system, an extremely annoying and loud sound is played until the system decides that the user is exhibiting State 1 (Normal) behaviour. 
 
 ## How does it do it?
-The most important part of the system is the ML model. I used Google's Teachable Machine accessible from https://teachablemachine.withgoogle.com/ to produce one by taking ~600 pictures of myself in each four system States. I varied the positioning of my head in relation to the camera and produced nose picking and fingernail biting events to include fingers from both hands in various positions around my mouth and nose. That was fun :) In addition, photographs of Covered and Turned State were taken with variance of the material covering the lense and surroundings, respectively.
+The most important part of the system is the ML model. I used Google's Teachable Machine accessible from https://teachablemachine.withgoogle.com/ to produce one by taking ~600 pictures of myself in each four system States. I varied the positioning of my head in relation to the camera and produced nose picking and fingernail biting events to include fingers from both hands in various positions around my mouth and nose. That was fun :) In addition, photographs of Covered and Turned State were taken with varying material covering the lense and various distinct surroundings, respectively.
 
 Subsequently, the model was exported and tested. The results were convincing as the model was able to recognise all States with near 100% accuracy.
   
@@ -69,7 +69,7 @@ Finally, a simple UI was built the model connected to it.
  
   
 
-## OK, but why?
+## Privacy
 
 
 ## Let's have a look-see, shall we?
