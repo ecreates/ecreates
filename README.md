@@ -1,6 +1,8 @@
 <div align="center">
  
 ![image](https://user-images.githubusercontent.com/85033252/193809079-1786cdea-efe9-4508-b57a-2a1d14d6ebcb.png)
+![](https://github.com/tenngs/anti-antisocial-AI/images/main/README.md)
+
 
 </div>
 <div align="center">
