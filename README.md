@@ -27,6 +27,7 @@
 
 - [Background](#Background)
 - [What does it do?](#what-does-it-do)
+- [How does it do it?](#how-does-it-do-it?
 - [OK, but why?](#ok-but-why)
 - [Let's have a look-see, shall we?](#lets-have-a-look-see-shall-we)
    - [Main menu](#main-menu-)
