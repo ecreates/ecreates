@@ -1,7 +1,7 @@
 <div align="center">
  
 ![image](https://user-images.githubusercontent.com/85033252/193809079-1786cdea-efe9-4508-b57a-2a1d14d6ebcb.png)
-![](https://github.com/tenngs/anti-antisocial-AI/images/main/README.md)
+![](https://github.com/tenngs/anti-antisocial-AI/blob/main/Images/Anti_Anti-Social_AI.png)
 
 
 </div>
@@ -69,7 +69,7 @@ The ML model is hosted on Teachable Machine's servers and accessed via internet.
 Please note: No user images produced by user's webcam are ever transmitted over a network. Hence, no privacy issues arise from usage of the system.
 
 ## Ethics and Biases
-The model is trained on the images of its author. As a result, the model will perform more accurately when utilised by a user depicting the same demographic character as the author.   
+The model is trained on the images of its author. As a result, the model will perform more accurately when utilised by a user depicting the same demographic characteristics as the author.   
 
 ## Let's have a look-see, shall we?
 The project is deployed in AWS public cloud and can be accessed from https://dev.d2uanxqxa2fkp3.amplifyapp.com/
@@ -92,6 +92,10 @@ Please find below screenshots of landing page and user monitoring state. Please 
 </div>
 
 ## How to use the system
+First, navigate to the app's website of https://dev.d2uanxqxa2fkp3.amplifyapp.com/. Subsequently, please adjust your webcam so that your face is directly opposite of it. Webcams on top of monitors work well. Press "start monitoring" button and leave the app to monitor your behaviour. If you wish to stop monitoring yourself, simply press "stop monitoring" button or navigate away from the website.
 
 ## Possible additions
+As discussed in Ethics and Biases section, the ML model is trained on photographs of its author and is thus biased towards authors' demographic characteristics. Ideally, photographs from as diverse as possible demographics could be added to the model's training set with a view of producing a model that is increasingly accurate when utilised by any person. This is something that I would like to do to experiment with the system further.
+
+
 
