@@ -79,7 +79,7 @@ The model is trained on the images of its author. As a result, the model will pe
 
 ## Let's have a look-see, shall we?
 The project is deployed in AWS public cloud and can be accessed from https://dev.d2uanxqxa2fkp3.amplifyapp.com/
-Please find below a screenshot of the landing page
+Please find below a screenshots of the landing page and user monitoring state.
   
 ### Landing page<br><br> 
   
@@ -89,7 +89,13 @@ Please find below a screenshot of the landing page
 
 </div>
   
-### Statistics menu<br><br> 
+### User monitoring<br><br> 
+  
+<div align="center">
+ 
+![image](https://user-images.githubusercontent.com/85033252/193797373-a52b505d-0e00-4836-8dcf-bdd3ca21d89f.png)
+
+</div>
 
 
 ### Initiating ATV rental<br>
