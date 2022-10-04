@@ -62,7 +62,7 @@ In the most basic terms, a user navigates to the application's website, sets a w
 When States 2 (NP & FB), 3 (Turned), 4 (Covered) are recognised by the system, an extremely annoying and loud sound is played until the system decides that the user is exhibiting State 1 (Normal) behaviour. 
 
 ## How does it do it?
-The most important part of the system is the ML model. I used Google's Teachable Machine accessible from https://teachablemachine.withgoogle.com/ to produce one by taking ~600 pictures of myself in each four system States. I varied the positioning of my head in relation to the camera and produced nose picking and fingernail biting events to include fingers from both hands in various positions around my mouth and nose. That was fun :) In addition, photographs of Covered and Turned State were taken with varying material covering the lense and various distinct surroundings, respectively.
+The most important part of the system is the ML model. Google's Teachable Machine (https://teachablemachine.withgoogle.com/) was utilised to produce the model by taking ~600 pictures of the author in each four system States. Head positioning in relation to the camera was varied in producing nose picking and fingernail biting events. Also included were positioning of fingers from both hands in various areas around the mouth and nose. In addition, photographs of Covered and Turned State were taken with varying material covering the lense and various distinct surroundings, respectively. The aim was to produce a varied range of photographs to train an accurate ML model.
 
 Subsequently, the model was exported and tested. The results were convincing as the model was able to recognise all States with near 100% accuracy.
   
