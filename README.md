@@ -45,7 +45,6 @@
 
 
 ## Background
-<br>
 This project’s viability is assessed by the general personal observation of the increase in ubiquitous computing and the reliance on computers especially in the lives of the young at present. It is further personally observed that the young increasingly manifest anti-social behaviours of nail biting and nose picking when utilising a computer. Hence, there is a need for additional tools to help people to reduce or remove these anti-social behaviours which this project aims to provide. 
 <br><br>
 
