@@ -72,7 +72,7 @@ Finally, a simple UI was built the model connected to it.
 ## Privacy
 The ML model is hosted on Teachable Machine's servers and accessed via internet. Furthermore, all user image processing occurs in user's web browser.
 
-Please note: No user   any given moment
+Please note: No user images produced by user's webcam are ever transmitted over a network. Hence, no privacy issues arise from usage of the system.
 
 ## Let's have a look-see, shall we?
 
