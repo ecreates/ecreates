@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<h3> System to combat anti-social behaviours of fingernail biting and nose picking whilst using a computer<br>
+<h3> System to resist and remove anti-social behaviours of fingernail biting and nose picking whilst using a computer<br>
  
 </div>
  
