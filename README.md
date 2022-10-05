@@ -45,6 +45,8 @@ This project’s viability is assessed by the general personal observation of th
 ## What does it do?
 The system is designed to detect fingernail biting and nose picking behaviour from user's webcam feed by utilising a Machine Learning (ML) model and to "penalise" the user by playing a continuous and horrible sound until the user stops exhibiting these behaviours with a view of drawing attention to and correcting these behaviours. 
 
+In addition, it displays as a percentage (0.00 - 1.00) the certainty that a user is presenting system State behaviours defined below when monitoring a user.
+
 ## How does it do it?
 The most important part of the system is the ML model. Google's Teachable Machine (https://teachablemachine.withgoogle.com/) was utilised to produce the model by taking ~600 pictures of the author in each four system States. Head positioning in relation to the camera was varied in producing nose picking and fingernail biting events. Also included were positioning of fingers from both hands in various areas around the mouth and nose. In addition, photographs of Covered and Turned State were taken with varying material covering the lense and various distinct surroundings, respectively. The aim was to produce a varied range of photographs to train an accurate ML model.
 
