@@ -64,7 +64,7 @@ When States 2 (NP & FB), 3 (Turned), 4 (Covered) are recognised by the system, a
 ## Privacy
 The ML model is hosted on Teachable Machine's servers and accessed via internet. Furthermore, all user image processing occurs in user's web browser.
 
-Please note: No user images produced by user's webcam are ever transmitted over a network. Hence, no privacy issues arise from usage of the system.
+Please note: State detection and webcam feed analysing is performed in user's web browser. This, no user images produced by user's webcam are ever transmitted over a network. Hence, no privacy issues arise from usage of the system.
 
 ## Ethics and Biases
 The model is trained on the images of its author. As a result, the model will perform more accurately when utilised by a user depicting the same demographic characteristics as the author.   
